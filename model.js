@@ -11,6 +11,8 @@ const InfoHashSchema = mongoose.Schema({
 	info_hash: String
 });
 
+InfoHashSchema.index({info_hash: 1}, {unique: true});
+
 const InfoHash = mongoose.model('InfoHash', InfoHashSchema);
 
 exports.saveInfoHash = function (hash) {
