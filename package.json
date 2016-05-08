@@ -10,7 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "bencode": "^0.9.0",
-    "inet_ipv4": "^1.0.0",
     "mongoose": "^4.4.13"
   }
 }
